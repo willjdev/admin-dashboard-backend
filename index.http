@@ -1,0 +1,29 @@
+GET http://localhost:4000/api/auth HTTP/1.1
+
+###
+
+POST http://localhost:4000/api/auth HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Master Sword",
+    "email": "link@hyrule.com"
+}
+
+###
+
+POST http://localhost:4000/api/auth/mockdata HTTP/1.1
+Content-Type: application/json
+
+###
+
+GET http://localhost:4000/api/data/geo HTTP/1.1
+
+###
+
+GET http://localhost:4000/api/data/team HTTP/1.1
+
+###
+
+GET http://localhost:4000/api/data/contacts HTTP/1.1
+
